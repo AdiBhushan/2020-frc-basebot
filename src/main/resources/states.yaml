@@ -1,15 +1,7 @@
 single_state:
 
-# ------ Example ------
-
-  st_example:
-    behavior: bh_example
-    behavior_config:
-      config_key: 1000
-
-  st_example_default:
-    behavior: bh_example
-    behavior_config:
+  st_single_joystick:
+    behavior: bh_single_joystick
 
 
 done_for_time_state:
@@ -17,4 +9,3 @@ done_for_time_state:
 parallel_state:
 
 sequencer_state:
-
